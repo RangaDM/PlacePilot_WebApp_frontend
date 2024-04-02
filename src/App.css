@@ -130,6 +130,11 @@ nav {
   left: -150px;
   z-index: -2;
 }
+.logic-background-image-container {
+  position: absolute;
+  right: -250px;
+  z-index: -2;
+}
 .about-section-image-container {
   flex: 0.9;
   margin-right: 1rem;
@@ -453,6 +458,10 @@ nav {
 @media (max-width: 600px) {
   .home-bannerImage-container,
   .about-background-image-container {
+    display: none;
+  }
+  .logic-bannerImage-container,
+  .logic-background-image-container {
     display: none;
   }
 }

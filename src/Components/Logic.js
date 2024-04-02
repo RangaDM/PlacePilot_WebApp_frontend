@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import backimg from "../Assets/logic-back.svg"
 
 const Logic = () => {
   const [inputValue, setInputValue] = useState("");
@@ -21,6 +22,9 @@ const Logic = () => {
 
   return (
     <div className="work-section-wrapper">
+      <div className="logic-background-image-container">
+        <img src={backimg} alt="background" />
+      </div>
       <div className="work-section-top">
         <p className="primary-subheading">Find Here</p>
         <h1 className="primary-heading">Just Search, We'll Sort !</h1>
