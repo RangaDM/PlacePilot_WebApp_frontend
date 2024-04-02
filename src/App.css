@@ -277,7 +277,22 @@ nav {
   flex-direction: column;
   text-align: center;
 }
+.shops-section-bottom {
+  margin-top: 2rem;
+  background-color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  border-radius: 2rem;
+  flex-direction: column;
+  text-align: center;
+}
 .testimonial-section-bottom {
+  margin: 2rem auto;
+}
+.shops-section-bottom {
   margin: 2rem auto;
 }
 .testimonial-section-bottom p {
@@ -287,12 +302,22 @@ nav {
   font-size: 1.1rem;
   margin: 2rem 0rem;
 }
+.shops-section-bottom p {
+  font-weight: 700;
+  color: #515151;
+  max-width: 500px;
+  font-size: 1.1rem;
+  margin: 0.3rem 0rem;
+}
 .testimonials-stars-container svg {
   margin: 0rem 0.25rem;
   font-size: 1.5rem;
   color: #fe9e0d;
 }
 .testimonial-section-bottom h2 {
+  margin-top: 1.5rem;
+}
+.shops-section-bottom h2 {
   margin-top: 1.5rem;
 }
 .work-section-wrapper {
@@ -455,6 +480,61 @@ nav {
     max-width: 95vw;
   }
 }
+.shop-card {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 0px 1px 1px 1px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.shop-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* .shop-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+} */
+
+.shop-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.shop-address, .shop-category, .shop-phone, .rating-text, .stars, .reviews {
+  margin: 0;
+  color: #666666;
+}
+
+.shop-links {
+  margin-top: 10px;
+}
+
+.google-maps-link, .website-link {
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.google-maps-link:hover, .website-link:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 600px) {
   .home-bannerImage-container,
   .about-background-image-container {
@@ -463,5 +543,46 @@ nav {
   .logic-bannerImage-container,
   .logic-background-image-container {
     display: none;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: #333333;
+}
+
+.pagination button:hover {
+  background-color: #ff0000;
+}
+
+.pagination button.active {
+  background-color: #fe9e0d;
+}
+
+.pagination button.disabled {
+  background-color: #f8f8f8;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 600px) {
+  .pagination button {
+    padding: 8px 16px;
   }
 }
