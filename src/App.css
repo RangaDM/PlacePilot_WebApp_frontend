@@ -73,7 +73,7 @@ nav {
   max-width: 700px;
 }
 .home-image-section {
-  max-width: 600px;
+  max-width: 500px;
   flex: 1;
 }
 .home-text-section {
@@ -127,7 +127,7 @@ nav {
 }
 .about-background-image-container {
   position: absolute;
-  left: -150px;
+  left: -300px;
   z-index: -2;
 }
 .logic-background-image-container {
@@ -211,18 +211,17 @@ nav {
   margin-left: 0.4rem;
 }
 .footer-icons {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .footer-icons svg {
-  font-size: 1.5rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
+  font-size: 1rem;
+  margin-left: 1.1rem;
   color: #585858;
 }
 .rights {
   color: #585858;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-left: 1rem;
 }
@@ -252,12 +251,11 @@ nav {
     margin-left: 0.8rem;
   }
   .footer-icons {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
   }
   .footer-icons svg {
-    font-size: 1.1rem;
-    margin-right: 1rem;
+    font-size: 1rem;
     margin-left: 1rem;
   }
   .rights {
@@ -544,6 +542,15 @@ nav {
   .logic-background-image-container {
     display: none;
   }
+  .about-section-image-container{
+    display: none;
+  }
+  .about-section-container {
+    padding-top: 0rem;
+  }
+  .work-section-wrapper {
+    padding-top: 0rem;
+  }
 }
 
 .pagination {
@@ -560,7 +567,8 @@ nav {
   margin: 0 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border-radius: 5px;
+  border-radius: 100px;
+  width: 0.8cm;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
@@ -585,4 +593,18 @@ nav {
   .pagination button {
     padding: 8px 16px;
   }
+}
+
+.download-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 100px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }

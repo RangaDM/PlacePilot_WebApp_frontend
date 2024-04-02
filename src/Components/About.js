@@ -1,6 +1,6 @@
 import React from "react";
-import AboutBackground from "../Assets/about-background.png";
-import map from "../Assets/5.svg";
+import AboutBackground from "../Assets/about-background.svg";
+import map from "../Assets/4.svg";
 import { FiArrowRight } from "react-icons/fi";
 import { Link } from "react-scroll";
 
