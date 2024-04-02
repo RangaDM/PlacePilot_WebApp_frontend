@@ -16,7 +16,7 @@ const Home = () => {
         <div className="home-text-section">
           <h1 className="primary-heading">Unlock the Secrets of Your City</h1>
           <p className="primary-text">
-            Experience the convenience of having every Pizza Hut shop in your
+            Experience the convenience of having every keells Supermarkets in your
             city at your fingertips. Simply search for what you crave, and let
             us organize it all for you, effortlessly...
           </p>
