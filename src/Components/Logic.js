@@ -3,6 +3,8 @@ import backimg from "../Assets/logic-back.svg";
 import { FiDownload } from "react-icons/fi";
 import axios from "axios";
 import Loading from "./Loader/Loading";
+import Papa from 'papaparse';
+import { saveAs } from 'file-saver';
 
 const Logic = () => {
   const [inputValue, setInputValue] = useState("");
@@ -51,6 +53,12 @@ const Logic = () => {
       .scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
+  const downloadCSV = () => {
+    const csv = Papa.unparse(data);
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    saveAs(blob, 'PlacePilot.csv');
+  };
+
   return (
     <div className="work-section-wrapper">
       <div className="logic-background-image-container">
@@ -89,7 +97,7 @@ const Logic = () => {
           </p>
         ) : (
           <>
-            <button className="download-button">
+            <button className="download-button" onClick={downloadCSV}>
               Download <FiDownload />
             </button>
             {currentItems.map(
@@ -111,7 +119,12 @@ const Logic = () => {
                   <p className="shop-category">{category}</p>
                   {phone && <p className="shop-phone">Phone: {phone}</p>}
                   <div className="shop-links">
-                    <a className="google-maps-link" href={googleUrl}>
+                    <a
+                      className="google-maps-link"
+                      href={googleUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       Google Maps Link
                     </a>
                     {bizWebsite && (
