@@ -18,10 +18,10 @@ const About = () => {
         <h1 className="primary-heading">Navigate Your Next Location</h1>
         <p className="primary-text">
           Unlock the secrets of your city, one location at a time. save your
-          favorite locations and share them with friends ...
+          favorite locations and share them with friends.
         </p>
         <p className="primary-text">
-          Find your way with ease and precision ...
+          Find your way with ease and precision.
         </p>
         <div className="about-buttons-container">
         <Link to="contact" smooth={true}>
