@@ -1,6 +1,6 @@
 {
-  "homepage": "https://(github username).github.io/(repo name)",
-  "name": "portfolio",
+  "homepage": "https://RangaDM.github.io/PlacePilot_WebApp_frontend",
+  "name": "PlacePilot-Web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
