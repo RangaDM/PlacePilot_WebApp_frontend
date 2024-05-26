@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PlacePilot_WebApp_frontend/static/css/main.db077a11.css",
-    "main.js": "/PlacePilot_WebApp_frontend/static/js/main.349dec67.js",
+    "main.js": "/PlacePilot_WebApp_frontend/static/js/main.3f93eccb.js",
     "static/media/Logo.svg": "/PlacePilot_WebApp_frontend/static/media/Logo.443bbc9fc37e0bae9a76b21a383c199d.svg",
     "static/media/home-banner-background.png": "/PlacePilot_WebApp_frontend/static/media/home-banner-background.585600da7ff85661555e.png",
     "static/media/about-background.svg": "/PlacePilot_WebApp_frontend/static/media/about-background.11787aecf7e1e48b0e79a5b2363ee472.svg",
@@ -10,10 +10,10 @@
     "index.html": "/PlacePilot_WebApp_frontend/index.html",
     "static/media/4.svg": "/PlacePilot_WebApp_frontend/static/media/4.1018792e46fce93b7a335adb215443e5.svg",
     "main.db077a11.css.map": "/PlacePilot_WebApp_frontend/static/css/main.db077a11.css.map",
-    "main.349dec67.js.map": "/PlacePilot_WebApp_frontend/static/js/main.349dec67.js.map"
+    "main.3f93eccb.js.map": "/PlacePilot_WebApp_frontend/static/js/main.3f93eccb.js.map"
   },
   "entrypoints": [
     "static/css/main.db077a11.css",
-    "static/js/main.349dec67.js"
+    "static/js/main.3f93eccb.js"
   ]
 }
