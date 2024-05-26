@@ -33,7 +33,7 @@ const Logic = () => {
       try {
         // console.log(inputValue);
         setLoading(true);
-        const response = await axios.post("https://3.87.167.210:5000/search", {
+        const response = await axios.post("http://3.87.167.210:5000/search", {
           query: inputValue,
         }); // Send user input to backend
         console.log("Search result:", response.data);
